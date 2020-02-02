@@ -1,0 +1,17 @@
+## Compiled JavaScript files
+**/*.js
+**/*.js.map
+
+# Typescript v1 declaration files
+typings/
+
+node_modules/
+
+# copying .gitignore from firebase/functions-samples
+**/node_modules/*
+**/.firebaserc
+*/npm-debug.log
+lerna-debug.log
+*~
+service-account-credentials.json
+**/package-lock.json
